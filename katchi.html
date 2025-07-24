@@ -1,16 +1,71 @@
-<table>
-    <tr>
-        <td>
-            <img src="WhatsApp Image 2025-07-24 at 18.14.35_864fbb3c.jpg" width=" 300 px"> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Myself</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-            <td style="padding-left:;"><h1>ABOUT MYSELF</h1> Im Mydeen . i have noting to say what i do . but i can hope that i can achieve what i dream </td>
-        </td>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+        }
 
-    </tr>
-</table>
-<style>
-    img{
-        margin: 100px;
-        
-    }
-</style>
+        .image-section img {
+            border-radius: 15px;
+            width: 300px;
+            height: auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .text-section {
+            padding-left: 40px;
+            max-width: 500px;
+        }
+
+        .text-section h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            color: #00ffcc;
+        }
+
+        .text-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .text-section {
+                padding-left: 0;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-section">
+            <img src="WhatsApp Image 2025-07-24 at 18.14.35_864fbb3c.jpg" alt="My Image">
+        </div>
+        <div class="text-section">
+            <h1>ABOUT MYSELF</h1>
+            <p>I’m Mydeen. I may not have done much yet, but I truly believe in the power of dreams. I hold on to hope, and I believe that one day, I’ll achieve what I dream of — no matter how far it seems right now.</p>
+        </div>
+    </div>
+
+</body>
+</html>
